@@ -3,8 +3,8 @@
 ## Front End 
   develop using vue+vite. reday to use 
   
-  npm i 
-  npm start dev
+ ### npm install
+ ### npm start dev
 
 ## Backend 
   develop using java spingboot + mysql + reddis + ffmpeg
