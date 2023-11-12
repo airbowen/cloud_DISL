@@ -1,0 +1,1560 @@
+2023-11-12 16:00:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:00:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:00:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:00:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:00:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:00:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:01:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:01:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:01:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:01:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:01:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:01:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:01:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:02:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:02:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:02:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:02:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:02:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:02:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:03:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:03:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:03:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:03:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:03:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:03:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:04:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:04:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:04:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:04:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:04:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:04:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:04:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:05:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:05:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:05:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:05:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:05:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:05:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:06:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:06:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:06:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:06:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:06:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:06:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:07:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:07:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:07:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:07:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:07:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:07:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:07:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:08:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:08:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:08:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:08:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:08:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:08:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:09:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:09:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:09:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:09:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:09:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:09:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:10:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:10:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:10:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:10:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:10:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:10:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:10:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:11:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:11:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:11:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:11:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:11:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:11:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:12:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:12:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:12:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:12:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:12:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:12:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:13:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:13:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:13:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:13:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:13:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:13:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:13:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:14:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:14:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:14:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:14:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:14:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:14:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:15:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:15:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:15:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:15:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:15:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:15:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:16:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:16:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:16:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:16:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:16:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:16:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:16:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:17:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:17:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:17:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:17:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:17:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:17:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:18:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:18:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:18:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:18:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:18:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:18:58 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:19:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:19:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:19:28 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:19:33 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@161115d: (connection has passed maxLifetime)
+2023-11-12 16:19:33 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@6087f3
+2023-11-12 16:19:39 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b77f9d: (connection has passed maxLifetime)
+2023-11-12 16:19:39 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@840952
+2023-11-12 16:19:48 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2be0be: (connection has passed maxLifetime)
+2023-11-12 16:19:48 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@dc7335
+2023-11-12 16:19:53 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73e429: (connection has passed maxLifetime)
+2023-11-12 16:19:53 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e1790e
+2023-11-12 16:19:57 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14eee12: (connection has passed maxLifetime)
+2023-11-12 16:19:57 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a0e89
+2023-11-12 16:19:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:19:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:19:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:19:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:20:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:20:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:20:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:20:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:20:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:20:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:21:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:21:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:21:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:21:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:21:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:21:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:22:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:22:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:22:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:22:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:22:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:22:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:22:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:23:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:23:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:23:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:23:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:23:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:23:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:24:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:24:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:24:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:24:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:24:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:24:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:25:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:25:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:25:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:25:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:25:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:25:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:25:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:26:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:26:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:26:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:26:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:26:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:26:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:27:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:27:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:27:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:27:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:27:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:27:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:28:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:28:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:28:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:28:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:28:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:28:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:28:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:29:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:29:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:29:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:29:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:29:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:29:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:30:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:30:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:30:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:30:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:30:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:30:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:31:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:31:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:31:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:31:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:31:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:31:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:31:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:32:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:32:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:32:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:32:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:32:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:32:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:33:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:33:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:33:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:33:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:33:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:33:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:34:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:34:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:34:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:34:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:34:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:34:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:34:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:35:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:35:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:35:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:35:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:35:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:35:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:36:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:36:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:36:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:36:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:36:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:36:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:37:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:37:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:37:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:37:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:37:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:37:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:37:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:38:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:38:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:38:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:38:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:38:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:38:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:39:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:39:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:39:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:39:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:39:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:39:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:40:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:40:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:40:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:40:58 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:40:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:40:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:40:59 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:41:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:41:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:41:29 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:42:00 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:42:00 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:42:00 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:42:30 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:42:30 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:42:30 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:43:01 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:43:01 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:43:01 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:43:31 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:43:31 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:43:31 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:54:37 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=11m6s23ms951µs100ns).
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][addBagItem][342]-> HikariCPDatasource - Add connection elided, waiting 0, queue 1
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][addBagItem][342]-> HikariCPDatasource - Add connection elided, waiting 0, queue 1
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][addBagItem][342]-> HikariCPDatasource - Add connection elided, waiting 0, queue 1
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6087f3: (connection has passed maxLifetime)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e1790e: (connection has passed maxLifetime)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@840952: (connection has passed maxLifetime)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@dc7335: (connection has passed maxLifetime)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a0e89: (connection has passed maxLifetime)
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@c9b5b9
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f4bf82
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ffdc0
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@1db40cd
+2023-11-12 16:54:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][call][729]-> HikariCPDatasource - Added connection com.mysql.cj.jdbc.ConnectionImpl@b3e39c
+2023-11-12 16:55:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:55:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:55:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:55:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:55:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:55:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:56:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:56:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:56:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:56:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:57:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:57:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:57:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:57:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 16:57:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:57:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:57:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:58:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:58:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:58:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:58:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:58:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:58:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:59:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:59:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:59:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 16:59:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:59:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 16:59:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:00:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:00:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:00:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:00:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:00:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:00:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:00:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:01:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:01:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:01:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:01:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:01:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:01:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:02:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:02:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:02:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:02:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:02:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:02:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:03:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:03:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:03:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:03:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:03:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:03:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:03:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:04:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:04:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:04:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:04:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:04:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:04:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:05:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:05:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:05:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:05:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:05:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:05:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:06:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:06:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:06:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:06:24 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=0&time=1699779984025", parameters={masked}
+2023-11-12 17:06:24 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:06:24 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:06:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:06:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:06:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:06:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:06:45 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=0&time=1699780005638", parameters={masked}
+2023-11-12 17:06:45 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:06:45 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:06:53 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=0&time=1699780013846", parameters={masked}
+2023-11-12 17:06:53 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:06:53 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780026398", parameters={masked}
+2023-11-12 17:07:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:07:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:07:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:07:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:07:19 [WARN][org.apache.catalina.connector.Request][log][173]-> Creating the temporary upload location [D:\workspace\easypan\temp] as it is required by the servlet [dispatcherServlet]
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][getTransaction][370]-> Creating new transaction with name [com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][267]-> Acquired Connection [HikariProxyConnection@9400366 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] for JDBC transaction
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][285]-> Switching JDBC Connection [HikariProxyConnection@9400366 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] to manual commit
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][processRollback][833]-> Initiating transaction rollback
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doRollback][345]-> Rolling back JDBC transaction on Connection [HikariProxyConnection@9400366 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9]
+2023-11-12 17:07:19 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doCleanupAfterCompletion][389]-> Releasing JDBC Connection [HikariProxyConnection@9400366 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] after transaction
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:07:19 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy79.selectByEmail(Unknown Source)
+	at com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode(EmailCodeServiceImpl.java:170)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$FastClassBySpringCGLIB$$14d57841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$EnhancerBySpringCGLIB$$822f22a7.sendEmailCode(<generated>)
+	at com.easypan.controller.AccountController.sendEmailCode(AccountController.java:99)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$920fada0.sendEmailCode(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@11a2d73]
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail]
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780039660", parameters={masked}
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:07:19 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:23 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780043878", parameters={masked}
+2023-11-12 17:07:23 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:07:23 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][getTransaction][370]-> Creating new transaction with name [com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][267]-> Acquired Connection [HikariProxyConnection@32757780 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] for JDBC transaction
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][285]-> Switching JDBC Connection [HikariProxyConnection@32757780 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] to manual commit
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][processRollback][833]-> Initiating transaction rollback
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doRollback][345]-> Rolling back JDBC transaction on Connection [HikariProxyConnection@32757780 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9]
+2023-11-12 17:07:35 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doCleanupAfterCompletion][389]-> Releasing JDBC Connection [HikariProxyConnection@32757780 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] after transaction
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:07:35 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy79.selectByEmail(Unknown Source)
+	at com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode(EmailCodeServiceImpl.java:170)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$FastClassBySpringCGLIB$$14d57841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$EnhancerBySpringCGLIB$$822f22a7.sendEmailCode(<generated>)
+	at com.easypan.controller.AccountController.sendEmailCode(AccountController.java:99)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$920fada0.sendEmailCode(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@d1546c]
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail]
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780055321", parameters={masked}
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:07:35 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:07:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:07:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:07:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:08:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:08:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:08:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:08:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:08:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:08:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:08:57 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780137480", parameters={masked}
+2023-11-12 17:08:57 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:08:57 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][getTransaction][370]-> Creating new transaction with name [com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][267]-> Acquired Connection [HikariProxyConnection@770924 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] for JDBC transaction
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][285]-> Switching JDBC Connection [HikariProxyConnection@770924 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] to manual commit
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][processRollback][833]-> Initiating transaction rollback
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doRollback][345]-> Rolling back JDBC transaction on Connection [HikariProxyConnection@770924 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9]
+2023-11-12 17:09:06 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doCleanupAfterCompletion][389]-> Releasing JDBC Connection [HikariProxyConnection@770924 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] after transaction
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:09:06 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy79.selectByEmail(Unknown Source)
+	at com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode(EmailCodeServiceImpl.java:170)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$FastClassBySpringCGLIB$$14d57841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$EnhancerBySpringCGLIB$$822f22a7.sendEmailCode(<generated>)
+	at com.easypan.controller.AccountController.sendEmailCode(AccountController.java:99)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$920fada0.sendEmailCode(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@ca5e4d]
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail]
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780146589", parameters={masked}
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:09:06 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:09:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:09:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:09:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:09:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:09:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:09:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:09:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:09:56 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+com.easypan.exception.BusinessException: 图片验证码不正确
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@604b70]
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [com.easypan.exception.BusinessException: 图片验证码不正确]
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780196347", parameters={masked}
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:09:56 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:09:58 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780198086", parameters={masked}
+2023-11-12 17:09:58 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:09:58 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:10:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:10:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:10:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][getTransaction][370]-> Creating new transaction with name [com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][267]-> Acquired Connection [HikariProxyConnection@31272524 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] for JDBC transaction
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][285]-> Switching JDBC Connection [HikariProxyConnection@31272524 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] to manual commit
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][processRollback][833]-> Initiating transaction rollback
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doRollback][345]-> Rolling back JDBC transaction on Connection [HikariProxyConnection@31272524 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9]
+2023-11-12 17:10:07 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doCleanupAfterCompletion][389]-> Releasing JDBC Connection [HikariProxyConnection@31272524 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] after transaction
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:10:07 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy79.selectByEmail(Unknown Source)
+	at com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode(EmailCodeServiceImpl.java:170)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$FastClassBySpringCGLIB$$14d57841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$EnhancerBySpringCGLIB$$822f22a7.sendEmailCode(<generated>)
+	at com.easypan.controller.AccountController.sendEmailCode(AccountController.java:99)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$920fada0.sendEmailCode(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@c4bf6d]
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail]
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780207891", parameters={masked}
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:10:07 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:10:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:10:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:10:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:11:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:11:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:11:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:11:16 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=0&time=1699780276519", parameters={masked}
+2023-11-12 17:11:16 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:11:16 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:11:18 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=0&time=1699780278605", parameters={masked}
+2023-11-12 17:11:18 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:11:18 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:11:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:11:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:11:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:11:47 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780307669", parameters={masked}
+2023-11-12 17:11:47 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:11:47 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:12:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:12:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:12:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> POST "/api/sendEmailCode", parameters={multipart}
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#sendEmailCode(HttpSession, String, String, Integer)
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][getTransaction][370]-> Creating new transaction with name [com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][267]-> Acquired Connection [HikariProxyConnection@9869374 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] for JDBC transaction
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doBegin][285]-> Switching JDBC Connection [HikariProxyConnection@9869374 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] to manual commit
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][processRollback][833]-> Initiating transaction rollback
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doRollback][345]-> Rolling back JDBC transaction on Connection [HikariProxyConnection@9869374 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9]
+2023-11-12 17:12:08 [DEBUG][org.springframework.jdbc.support.JdbcTransactionManager][doCleanupAfterCompletion][389]-> Releasing JDBC Connection [HikariProxyConnection@9869374 wrapping com.mysql.cj.jdbc.ConnectionImpl@c9b5b9] after transaction
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][416]-> Using @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+2023-11-12 17:12:08 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][24]-> 请求错误，请求地址http://localhost:7090/api/sendEmailCode,错误信息:
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy79.selectByEmail(Unknown Source)
+	at com.easypan.service.impl.EmailCodeServiceImpl.sendEmailCode(EmailCodeServiceImpl.java:170)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$FastClassBySpringCGLIB$$14d57841.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.service.impl.EmailCodeServiceImpl$$EnhancerBySpringCGLIB$$822f22a7.sendEmailCode(<generated>)
+	at com.easypan.controller.AccountController.sendEmailCode(AccountController.java:99)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$920fada0.sendEmailCode(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][writeWithMessageConverters][268]-> Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor][traceDebug][108]-> Writing [com.easypan.entity.vo.ResponseVO@243c23]
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][resolveException][146]-> Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.UserInfoMapper.selectByEmail]
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.DispatcherServlet][traceDebug][108]-> GET "/api/checkCode?type=1&time=1699780328106", parameters={masked}
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][getHandler][522]-> Mapped to com.easypan.controller.AccountController#checkCode(HttpServletResponse, HttpSession, Integer)
+2023-11-12 17:12:08 [DEBUG][org.springframework.web.servlet.DispatcherServlet][logResult][1131]-> Completed 200 OK
+2023-11-12 17:12:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:12:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:12:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:12:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:13:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:13:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:13:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:13:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:13:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:13:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:14:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:14:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:14:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:14:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:14:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:14:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:15:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:15:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:15:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:15:36 [ERROR][org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler][handleError][95]-> Unexpected error occurred in scheduled task
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.easypan.mappers.FileInfoMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at com.easypan.service.impl.FileInfoServiceImpl.findListByParam(FileInfoServiceImpl.java:75)
+	at com.easypan.service.impl.FileInfoServiceImpl$$FastClassBySpringCGLIB$$3f477bf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.easypan.service.impl.FileInfoServiceImpl$$EnhancerBySpringCGLIB$$c856a6e6.findListByParam(<generated>)
+	at com.easypan.task.FileCleanTask.execute(FileCleanTask.java:26)
+	at sun.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-11-12 17:15:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:15:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:15:37 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:16:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before cleanup stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:16:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After cleanup  stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:16:07 [DEBUG][com.zaxxer.hikari.pool.HikariPool][fillPool][518]-> HikariCPDatasource - Fill pool skipped, pool is at sufficient level.
+2023-11-12 17:16:19 [DEBUG][org.springframework.boot.availability.ApplicationAvailabilityBean][onApplicationEvent][77]-> Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-11-12 17:16:19 [DEBUG][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][doClose][1049]-> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ad498c, started on Sat Nov 11 23:49:57 PST 2023
+2023-11-12 17:16:19 [DEBUG][org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertyResolver$DefaultResolver][logKeyFound][115]-> Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2023-11-12 17:16:19 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483647
+2023-11-12 17:16:19 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-11-12 17:16:19 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][stop][365]-> Stopping beans in phase 2147483646
+2023-11-12 17:16:19 [DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][lambda$doStop$3][238]-> Bean 'webServerStartStop' completed its stop procedure
+2023-11-12 17:16:19 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2023-11-12 17:16:19 [DEBUG][org.springframework.data.redis.listener.RedisMessageListenerContainer][stop][242]-> Stopped RedisMessageListenerContainer
+2023-11-12 17:16:19 [DEBUG][org.springframework.jmx.export.annotation.AnnotationMBeanExporter][destroy][452]-> Unregistering JMX-exposed beans on shutdown
+2023-11-12 17:16:19 [DEBUG][org.springframework.jmx.export.annotation.AnnotationMBeanExporter][unregisterBeans][186]-> Unregistering JMX-exposed beans
+2023-11-12 17:16:19 [DEBUG][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][218]-> Shutting down ExecutorService 'applicationTaskExecutor'
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.RedisChannelHandler][closeAsync][141]-> closeAsync()
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.DefaultEndpoint][closeAsync][590]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, epid=0x1] closeAsync()
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.AbstractRedisClient][shutdownAsync][539]-> Initiate shutdown (100, 100, MILLISECONDS)
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.CommandHandler][channelInactive][344]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, epid=0x1, chid=0x1] channelInactive()
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.DefaultEndpoint][lambda$notifyChannelInactive$3][504]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, epid=0x1] deactivating endpoint handler
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.CommandHandler][channelInactive][368]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, epid=0x1, chid=0x1] channelInactive() done
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.ConnectionWatchdog][channelInactive][196]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] channelInactive()
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.ConnectionWatchdog][channelInactive][207]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] Reconnect scheduling disabled
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.protocol.CommandHandler][channelUnregistered][227]-> [channel=0x7027562d, /127.0.0.1:53812 -> /127.0.0.1:6379, epid=0x1, chid=0x1] channelUnregistered()
+2023-11-12 17:16:19 [DEBUG][io.lettuce.core.resource.DefaultEventLoopGroupProvider][doRelease][281]-> Release executor io.netty.channel.nio.NioEventLoopGroup@18a612d
+2023-11-12 17:16:20 [DEBUG][io.netty.buffer.PoolThreadCache][free][224]-> Freed 6 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2023-11-12 17:16:20 [DEBUG][io.lettuce.core.resource.DefaultClientResources][shutdown][710]-> Initiate shutdown (0, 2, SECONDS)
+2023-11-12 17:16:20 [DEBUG][io.lettuce.core.resource.DefaultEventLoopGroupProvider][shutdown][317]-> Initiate shutdown (0, 2, SECONDS)
+2023-11-12 17:16:20 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - Before shutdown stats (total=6, active=1, idle=5, waiting=0)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c9b5b9: (connection evicted)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f4bf82: (connection evicted)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ffdc0: (connection evicted)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1db40cd: (connection evicted)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.PoolBase][quietlyCloseConnection][134]-> HikariCPDatasource - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b3e39c: (connection evicted)
+2023-11-12 17:16:20 [DEBUG][com.zaxxer.hikari.pool.HikariPool][logPoolState][421]-> HikariCPDatasource - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-11-12 17:16:20 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
